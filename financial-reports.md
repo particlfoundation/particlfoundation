@@ -11,7 +11,10 @@ Reports to be uploaded via PDF every quarter.
   <a class="statement" href="{{ statement.path }}" title="Download PDF" target="_blank">
     <i class="ico ico-pdf"></i>
     <span class="name">{{ statement.name }}</span>
-    <span class="date">{{ statement.modified_time | date_to_string }}</span>
+    <!--span class="date">{{ statement.modified_time | date_to_string }}</span-->
   </a>
 {% endfor %}
 </div>
+
+- Prices are based on coinmarketcap.com
+- Figures are unaudited and subject to change
