@@ -7,6 +7,7 @@ Website for Particl Foundation
 
 ### Installation
 
+- `bundle install`
 - `yarn install`
 
 ### Dev
