@@ -3,6 +3,10 @@ layout: default
 title: Financial Reports
 ---
 
+<div class="message info">
+  <a href="{% link foundation-fund-update.md %}"><p><strong>Announcement:</strong> Foundation Funds Update</p></a>
+</div>
+
 Reports to be uploaded via PDF every quarter.
 
 <div class="financial-statements">

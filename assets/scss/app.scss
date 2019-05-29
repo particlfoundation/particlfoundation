@@ -66,7 +66,24 @@ code {
 
 // ---------------[  UI  ]--------------- //
 
-
+.message {
+  background: rgba($color-info, 0.1);
+  border-right: 3px solid $color-info;
+  margin: 12px -24px;
+  padding: 1px 24px;
+  @include break(m) { margin: 12px -52px; padding: 1px 52px; }
+  @include break(l) { margin: 32px -96px; padding: 1px 96px; }
+  a {
+    text-decoration: none;
+    &:hover {
+      color: $text;
+      strong { color: $color-info; }
+    }
+    strong {
+      @extend %tfx;
+    }
+  }
+}
 
 
 // -------------[  LAYOUT  ]------------- //
