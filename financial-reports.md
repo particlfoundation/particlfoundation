@@ -6,7 +6,7 @@ title: Financial Reports
 Reports to be uploaded via PDF every quarter.
 
 <div class="financial-statements">
-{% assign financial_statements = site.static_files | where: "pdf", true %}
+{% assign financial_statements = site.static_files | where: "pdf", true | reverse %}
 {% for statement in financial_statements %}
   <a class="statement" href="{{ statement.path }}" title="Download PDF" target="_blank">
     <i class="ico ico-pdf"></i>
