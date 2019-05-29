@@ -77,10 +77,11 @@ code {
     text-decoration: none;
     &:hover {
       color: $text;
-      strong { color: $color-info; }
+      strong { color: darken($color-info, 10%); }
     }
     strong {
       @extend %tfx;
+      color: $color-info;
     }
   }
 }
