@@ -128,10 +128,15 @@ code {
   @include break(l) {
     padding: 3.5rem 4.4rem;
   }
+  hr {
+    @include break(m) {
+      margin: 2rem 0;
+    }
+  }
 }
 
 
-#menu {
+.menu {
   margin: 0 -1.5rem;
   padding: 1.2rem;
   list-style: none;
@@ -142,6 +147,11 @@ code {
     border-top: none;
     margin: 0;
     padding: 0;
+  }
+  &.announcements {
+    a {
+      font-weight: normal;
+    }
   }
   a {
     font-weight: bold;

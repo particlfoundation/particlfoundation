@@ -36,7 +36,7 @@ const paths = {
   // JS
   js: 'assets/js/src/',
   js_in: 'assets/js/src/**/*.js',
-  js_out: 'assets/js',
+  js_out: './assets/js',
 }
 
 
@@ -46,7 +46,7 @@ const paths = {
 
 // Compile Sass to CSS (and minify) + feed updates to BrowserSync
 function styles(){
-  return src([paths.scss], {base: '.'})
+  return src([paths.scss], {base: ''})
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer({cascade: false}))

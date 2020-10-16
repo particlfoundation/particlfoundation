@@ -4,7 +4,7 @@ title: Financial Reports
 ---
 
 <div class="message info">
-  <a href="{% link foundation-fund-update.md %}"><p><strong>Announcement:</strong> Foundation Funds Update</p></a>
+  <a href="{% link foundation-announcement.md %}"><p><strong>Announcement:</strong> Foundation Announcement</p></a>
 </div>
 
 Reports to be uploaded via PDF every quarter.

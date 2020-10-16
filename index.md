@@ -6,7 +6,7 @@ title: About us
 Particl Foundation is a non-profit organisation, serving the Particl ecosystem and promoting awareness of financial privacy.
 
 <div class="message info">
-  <a href="{% link foundation-fund-update.md %}"><p><strong>Announcement:</strong> Foundation Funds Update</p></a>
+  <a href="{% link foundation-announcement.md %}"><p><strong>Announcement:</strong> Foundation Announcement</p></a>
 </div>
 
 ## Purpose
